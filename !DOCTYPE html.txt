@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f7e9d7;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            padding: 50px;
+        }
+        h1 {
+            font-size: 3em;
+            color: #ff6f61;
+        }
+        p {
+            font-size: 1.5em;
+        }
+        .cake {
+            margin-top: 20px;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            background-color: #ff6f61;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .btn:hover {
+            background-color: #ff3b2e;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Happy Birthday!</h1>
+        <p>Wishing you a day filled with love, joy, and laughter!</p>
+        <img class="cake" src="https://cdn.pixabay.com/photo/2016/03/31/19/56/birthday-1299496_960_720.png" alt="Birthday Cake" width="300">
+        <br>
+        <a class="btn" href="https://example.com/gift">Claim Your Birthday Gift 🎁</a>
+    </div>
+</body>
+</html>
